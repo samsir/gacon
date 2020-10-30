@@ -3,7 +3,7 @@ layout: post
 title: "6 things we learned about families and tech during COVID-19"  
 subtitle: "실무자를 위한 핀테크 자금세탁방지 가이드"  
 categories: favorites
-tags: favorites book
+tags: startup favorites book
 comments: true  
 header-img: img/review/review-book-crypto-laundering-prevention-1.png
 ---  
