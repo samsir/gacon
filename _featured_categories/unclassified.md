@@ -2,7 +2,7 @@
 layout: cat-blog
 title: Unclassified
 slug: unclassified
-menu: true
+menu: false
 submenu: false
 order: 1
 description: >
