@@ -1,0 +1,19 @@
+---  
+layout: post  
+title: "More online protection with the new VPN by Google One"  
+subtitle: "Generative Deep Learning"  
+categories: think review  
+tags: think review book gan vae deep learning reinforcement learning   
+comments: true  
+header-img: img/review/2019-12-12-review-book-GAN-1.jpg  
+---  
+  
+We’ve all done it. You’re sitting in a cafe browsing your favorite online store and you enter your credit card number while connected to an unsecured Wi-Fi network. While convenient, a public Wi-Fi network may be less secure than your personal one. This can put your personal information at risk of theft from hackers.
+
+To give you peace of mind that your data is safe, we’re announcing the new VPN by Google One on our 2 TB and higher plans to provide an extra layer of online protection for your Android phone. 
+
+We already build advanced security into all our products, and the VPN extends that security to encrypt all of your phone’s online traffic, no matter what app or browser you’re using. The VPN is built into the Google One app, so with just one tap, you can rest assured knowing your connection is safe from hackers.
+
+We’re also now rolling out Pro Sessions by Google One with VPN support. With Pro Sessions, you can schedule one-on-one online sessions with a Google expert to learn more about VPNs and how to stay safer online. You’ll get access to the VPN and Pro Sessions in addition to the 2 TB of storage and other member benefits you already get with the plan, like 10 percent back in store credit on all Google Store device purchases. Plus, if you’ve shared your 2 TB Google One plan with family members (up to five additional people), they can also enable the VPN on their own devices at no extra cost. These are just a few more ways that a Google One membership helps you get the most out of Google with more peace of mind and helpful experiences.
+
+Google Store rewards give you Store credit on hardware purchases from the Google Store. This is only available in U.S., Canada, Australia, Germany and United Kingdom. One thing to note on Pro Sessions: there are limited appointments available on a first come, first served basis.

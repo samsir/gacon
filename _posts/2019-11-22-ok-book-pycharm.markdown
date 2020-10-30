@@ -1,0 +1,17 @@
+---  
+layout: post  
+title: "Helping Australian teens hone media literacy skills"  
+subtitle: "Pycharm good for python"  
+categories: review think
+tags: think review book python pycharm   
+comments: true  
+header-img: img/review/2019-11-22-review-book-pycharm-1.jpg  
+---  
+  
+On April 28, 1996 at the historical Port Arthur site in Tasmania, 35 people were tragically killed. Alannah and Madeline Mikac, aged six and three, along with their mother, died that day. Because of this terrible act of violence, Alannah and Madeline's father, Walter Mikac AM, and a small group of volunteers, created the Alannah & Madeline Foundation with the belief that all children should have a safe and happy childhood. For more than 20 years, the Alannah & Madeline Foundation has worked to safeguard every child’s basic right to live free from violence and serves as a beacon of hope for a better, safer world. 
+
+As the dangers children face today become increasingly complex, the Foundation is adapting and responding to modern challenges. To help young people become less susceptible to online harms like disinformation and hate speech, the organization is focusing on helping teens better understand their relationships with media.
+
+In Australia, as in the rest of the world, it’s more crucial than ever to help young people distinguish fact from fiction online. Research by Queensland University of Technology and Western Sydney University shows that many teenagers regularly consume news media, but their trust in the stories provided by news organizations has fallen significantly since 2017. More than half of young Australians pay little or no attention to the source of news stories found online, and only one third agree that they can tell “fake news” from real news. Teachers believe it's important to teach media literacy, but many feel constrained by barriers like a strict curriculum and a lack of confidence about the topic. 
+
+With support from Google.org, the Foundation set its sights on tackling this issue and worked with an advisory group of academics, industry experts and educators to develop Media Literacy Lab, a first-of-its-kind education resource for teachers and students aged 12-16. This e-learning platform helps Australia’s youth become media-savvy digital citizens, questioning what they see, practicing smart and safe online behaviors and seeking help when needed. 
