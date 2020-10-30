@@ -13,6 +13,7 @@ layout: base
 
 {% for post in posts %}
   {% include post-list-item.html post=post format="%d %b" %}
+  {% if forloop.last %}</ul>{% endif %}
 {% endfor %}
  
 {% include pagination.html %}
