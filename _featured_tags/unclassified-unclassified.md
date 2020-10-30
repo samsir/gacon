@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: tags-list
 title: Unclassified
 slug: unclassified
 category: unclassified

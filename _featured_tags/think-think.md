@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: tags-list
 title: Think
 slug: think
 category: think

@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: tags-list
 title: Review
 slug: review
 category: review

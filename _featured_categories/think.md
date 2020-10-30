@@ -1,5 +1,5 @@
 ---
-layout: cat-blog
+layout: categories-list
 title: Think
 slug: think
 menu: true

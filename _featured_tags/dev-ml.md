@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: tags-list
 title: ML
 slug: ml
 category: dev

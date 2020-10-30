@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: tags-list
 title: Favorites
 slug: favorites
 category: favorites

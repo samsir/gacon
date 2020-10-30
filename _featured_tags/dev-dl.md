@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: tags-list
 title: DL
 slug: dl
 category: dev

@@ -1,5 +1,5 @@
 ---
-layout: cat-blog
+layout: categories-list
 title: Review
 slug: review
 menu: true

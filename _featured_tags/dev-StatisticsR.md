@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: tags-list
 title: Statistics & R
 slug: r
 category: dev

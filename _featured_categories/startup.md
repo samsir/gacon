@@ -1,5 +1,5 @@
 ---
-layout: cat-blog
+layout: categories-list
 title: Startup
 slug: startup
 menu: true

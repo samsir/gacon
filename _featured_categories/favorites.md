@@ -1,5 +1,5 @@
 ---
-layout: cat-blog
+layout: categories-list
 title: Favorites
 slug: favorites
 menu: true
