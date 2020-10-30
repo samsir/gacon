@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Startup
-slug: startup
+title: Book
+slug: book
 category: startup
 menu: false
 order: 1

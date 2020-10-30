@@ -2,8 +2,8 @@
 layout: post  
 title: "A stronger future for journalism through the GNI"  
 subtitle: "감정을 설명하기가 가장 어려웠다"  
-categories: dev
-tags: startup
+categories: think
+tags: think
 comments: true  
 header-img: img/review/review-book-emotion-arrangement-1.png
 ---  

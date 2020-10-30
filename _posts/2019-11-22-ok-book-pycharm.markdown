@@ -3,7 +3,7 @@ layout: post
 title: "Helping Australian teens hone media literacy skills"  
 subtitle: "Pycharm good for python"  
 categories: think
-tags: think review book python pycharm   
+tags: think  
 comments: true  
 header-img: img/review/2019-11-22-review-book-pycharm-1.jpg  
 ---  

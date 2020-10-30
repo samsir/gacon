@@ -3,7 +3,7 @@ layout: post
 title: "Rebuilding Japan’s Shurijo Castle in the Cloud"  
 subtitle: "Learning a Linear Algebra with Python and NumPy"  
 categories: startup
-tags: review book python numpy linear algebra   
+tags: book
 comments: true  
 header-img: img/review/2019-10-28-review-book-numpy-linear-algebra-1.jpg  
 ---  
