@@ -2,7 +2,7 @@
 layout: post  
 title: "Celebrating 20 years of human life on the ISS with NASA"  
 subtitle: "Do it! Introduction to Git & GitHub, Document Manager from Hell"  
-categories: dev review think
+categories: dev
 tags: favorites think book git github introduction   
 comments: true  
 header-img: img/review/2019-12-26-review-book-git-github-1.jpg  

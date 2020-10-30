@@ -2,7 +2,7 @@
 layout: post  
 title: "A stronger future for journalism through the GNI"  
 subtitle: "감정을 설명하기가 가장 어려웠다"  
-categories: review  
+categories: dev
 tags: review book 감정 정리 뇌 통증 쾌감 이성 욕망 오감 중독 몰입 가소성 행복 연결     
 comments: true  
 header-img: img/review/review-book-emotion-arrangement-1.png

@@ -2,7 +2,7 @@
 layout: post  
 title: "More online protection with the new VPN by Google One"  
 subtitle: "Generative Deep Learning"  
-categories: think review  
+categories: review  
 tags: think review book gan vae deep learning reinforcement learning   
 comments: true  
 header-img: img/review/2019-12-12-review-book-GAN-1.jpg  
