@@ -3,7 +3,7 @@ layout: post
 title: "We supported 662 journalism projects in Europe"  
 subtitle: "네이티브 앱처럼 동작하는 웹 프로젝트 완성"  
 categories: dev
-tags: favorites book PWA 프로그레시브 웹 앱 서비스 워커 Push SNS  
+tags: favorites book PWA
 comments: true  
 header-img: img/review/review-book-sns-pwa-1.png
 ---  

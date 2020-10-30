@@ -3,7 +3,7 @@ layout: post
 title: "The Digital Services Act must not harm Europe’s economic recovery"  
 subtitle: "세계적인 미래연구기구 ‘밀레니엄 프로젝트’가 예측한 코로나가 만든 세계!"  
 categories: review
-tags: startup review book 포스트 코로나 66개국 4500명전문가 진단 미래 부 교육 지속가능 시민 국가 정치 비즈니스 일자리 기술 문명    
+tags: startup review book  
 comments: true  
 header-img: img/review/review-book-world-future-report-2021-1.png
 ---  

@@ -3,7 +3,7 @@ layout: post
 title: "How marketers can meet the data challenge to drive growth"  
 subtitle: "다가올 금융 위기를 대비하는 원칙"  
 categories: dev
-tags: think book 레이달리오 금융 부채 위기 원칙 사이클 사례 연구 경제 정책 시장 투자     
+tags: think book
 comments: true  
 header-img: img/review/review-book-big-dept-crises-1.png
 ---  
