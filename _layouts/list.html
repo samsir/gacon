@@ -4,8 +4,6 @@ layout: base
 
 {% assign posts = site.tags[page.slug] | where: "categories", page.category %}
 
-{% assign tag = site.featured_tags | where: "category", page.slug %}
-
 {% if page.title.size > 0 %}
   <header>
     <h1 class="page-title">{{ page.title }}</h1>
