@@ -59,6 +59,14 @@
   <meta name="keywords" content="{{ site.keywords | default: page.keywords | join:',' }}">
 {% endif %}
 
+<!-- tipuesearch -->
+<link rel="stylesheet" href="/assets/tipuesearch/css/tipuesearch.css">
+{% if page.tipue_search_active %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
+<script src="/assets/tipuesearch/tipuesearch_content.js"></script>
+<script src="/assets/tipuesearch/tipuesearch_set.js"></script>
+<script src="/assets/tipuesearch/tipuesearch.min.js"></script>
+{% endif %}
 
 <!-- =============== -->
 <!-- LINKS           -->
@@ -80,10 +88,6 @@
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
 <!-- Place favicon.ico in the root directory -->
 
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-
 <!-- =============== -->
 <!-- SCRIPTS         -->
 <!-- =============== -->
@@ -99,6 +103,21 @@
 <script src="https://unpkg.com/html5shiv/dist/html5shiv.min.js"></script>
 <![endif]-->
 
+<!-- =============== -->
+<!-- STYLES          -->
+<!-- =============== -->
+<!--[if gt IE 8]><!---->
+<style>
+  {% capture include_to_scssify %}
+  {% include styles/inline.scss %}
+  {% endcapture %}
+  {{ include_to_scssify | scssify }}
+</style>
+
+{% capture style_url %}{% link assets/css/hydejack.css %}?v=6.4.0{% endcapture %}
+<link rel="preload" href="{{ style_url | absolute_url }}" as="style" onload="this.rel='stylesheet'">
+
+{% include page-style.html %}
 
 <noscript>
   <link rel="stylesheet" href="{{ style_url | absolute_url }}">
