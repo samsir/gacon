@@ -5,7 +5,7 @@ subtitle: "Tiati di internet"
 categories: internet
 tags: milenial internet
 comments: true
-header-img: https://miro.medium.com/max/1754/1*6JxVNM5zE4rph0uERQFnbQ.png
+cover-img: https://miro.medium.com/max/1754/1*6JxVNM5zE4rph0uERQFnbQ.png
 ---  
   
 Berinternet ria kini sudah menjadi bagian dalam ekosistem siklus hidup dari bangun tidur sampai tidur lagi seseorang, ada banyak bermunculan sebutan untuk kelompok tertentu terhadap seseorang dalam kelompok tertentu yang lain seperti yang sedang hits sekarang ini istilah Kids Jaman Now, istilah ini tak jauh beda dari istilah-istilah lain dalam perkembangan pergaulan masa muda yang terus berganti generasi, ganti selera sampai ganti tuhan dengan menuhankan dirinya dalam salah satu akun sosial media miliknya, ini mirip antroposentrisme barat.

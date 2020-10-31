@@ -11,16 +11,16 @@
 
 
 {% for tag_slug in page.tags %}
-  {% unless tag.header-img %}
+  {% unless tag.cover-img %}
     {% assign tag = site.featured_tags | where: "slug", tag_slug | first %}
   {% endunless %}
 {% endfor %}
 
-{% if page.header-img %}
-  <meta property="og:image" content="{{ site.url }}/assets/{{ page.header-img }}">
+{% if page.cover-img %}
+  <meta property="og:image" content="{{ site.url }}/assets/{{ page.cover-img }}">
   <br/>
-{% elsif tag.header-img %}
-  <meta property="og:image" content="{{ site.url }}/assets/{{ tag.header-img }}">
+{% elsif tag.cover-img %}
+  <meta property="og:image" content="{{ site.url }}/assets/{{ tag.cover-img }}">
   <br/>
 {% else %}
   <meta property="og:image" content="{{ site.url }}/assets/img/logo.png">

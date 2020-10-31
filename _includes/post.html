@@ -17,7 +17,7 @@
     {% include message.html text=post.description %}
   </header>
   {% for tag_slug in post.tags %}
-    {% unless tag.header-img %}
+    {% unless tag.cover-img %}
       {% assign tag = site.featured_tags | where: "slug", tag_slug | first %}
     {% endunless %}
   {% endfor %}
@@ -25,9 +25,9 @@
   {% unless include.excerpt %}
     <div class="markdown-body">
 
-{% if post.header-img %}<img class="head-image" src="{% if post.header-img %}{% endif %}"/>
-<br/>{% elsif tag.header-img %}
-<img class="head-image" src="{{ tag.header-img }}"/>
+{% if post.cover-img %}<img class="head-image" src="{% if post.cover-img %}{% endif %}"/>
+<br/>{% elsif tag.cover-img %}
+<img class="head-image" src="{{ tag.cover-img }}"/>
 <br/>{% endif %}
     {{ post.content }}
 {% else %}
