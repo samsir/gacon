@@ -1,10 +1,10 @@
 ---  
-layout: post  
-title: "Hati-hati Internet Era Milenial"  
+layout: post
+title: "Hati-hati Internet Era Milenial"
 subtitle: "Tiati di internet"  
 categories: internet
 tags: milenial internet
-comments: true  
+comments: true
 header-img: https://miro.medium.com/max/1754/1*6JxVNM5zE4rph0uERQFnbQ.png
 ---  
   
