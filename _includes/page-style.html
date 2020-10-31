@@ -13,15 +13,6 @@
     outline-color: {{ color }};
   }
 
-  ::selection {
-    color: #fff;
-    background: {{ color }};
-  }
-
-  ::-moz-selection {
-    color: #fff;
-    background: {{ color }};
-  }
 {% endcapture %}
 {{ page_style | scssify }}
 </style>
