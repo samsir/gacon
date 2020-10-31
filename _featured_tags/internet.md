@@ -1,7 +1,7 @@
 ---
 layout: tags-list
-title: Review
-slug: review
+title: Internet
+slug: internet
 category: review
 menu: false
 order: 1
