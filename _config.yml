@@ -22,11 +22,11 @@ description:         >
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
-  name:              gacon
+  name:              Gacon
   email:             gacondotco@gmail.com
 
 # Fallback image and color
-image:               /assets/img/main_left.jpg
+image:               
 color:               '#4f86aa'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
