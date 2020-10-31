@@ -29,15 +29,16 @@
 <br/>{% elsif tag.header-img %}
 <div class="head-image"><img src="{{ tag.header-img }}"/></div>
 <br/>{% endif %}
-  {% else %}
+    {{ post.content }}
+{% else %}
     {{ post.excerpt }}
     <p class="read-more"><a class="heading" href="{{ post.url | relative_url }}" data-flip="title">Continue reading </a></p>
-  {% endunless %}
+{% endunless %}
 
 </article>
 {% unless include.link_title %}
 
-<div class="share">
+  <div class="share">
       <h2>Share this post</h2>
       <div class="share-body">
         <a href="http://twitter.com/share?text={{ page.title }}&amp;url={{ site.url }}{{ page.url }}"
