@@ -25,9 +25,9 @@
   {% unless include.excerpt %}
     <div class="markdown-body">
 
-{% if post.cover-img %}<img class="head-image" src="{% post.cover-img %}" alt="{{ post.title }}"/>
+{% if post.cover-img %}<img class="head-image" src="{{ post.cover-img }}" alt="{{ post.title }}">
 <br/>{% elsif tag.cover-img %}
-<img class="head-image" src="{{ tag.cover-img }}" alt="{{ post.title }}"/>
+<img class="head-image" src="{{ tag.cover-img }}" alt="{{ post.title }}">
 <br/>{% endif %}
     {{ post.content }}
 {% else %}
