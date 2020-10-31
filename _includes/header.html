@@ -10,13 +10,13 @@
           </div>
           <div class="col-sm-4 col-xs-8 text-right site-search">
             <form action="/search">
-                <div class="tipue_search_left">
-                  <img src="{{ "/assets/tipuesearch/search.png" | relative_url }}" class="tipue_search_icon">
+                <div class="input-group">
+                    <input type="text" name="q" class="form-control" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required></div>  
+                  <span class="input-group-btn">
+                    <button class="btn" type="submit"><i class="fa fa-search"></i></button>
+                  </span>
                 </div>
-                <div class="tipue_search_right">
-                  <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required></div>
-                <div style="clear: both;"></div>
-              </form>          
+            </form>
           </div>
         </div>
       </div>
