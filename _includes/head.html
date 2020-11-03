@@ -16,10 +16,8 @@
 
 {% if page.cover-img %}
   <meta property="og:image" content="{{ page.cover-img }}">
-  <br/>
 {% elsif tag.cover-img %}
   <meta property="og:image" content="{{ tag.cover-img }}">
-  <br/>
 {% else %}
   <meta property="og:image" content="{{ site.url }}/assets/img/logo.png">
 {% endif %}
