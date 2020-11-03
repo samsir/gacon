@@ -2,7 +2,7 @@
 layout: tags-list
 title: Internet
 slug: internet
-category: review
+category: network
 menu: false
 order: 1
 ---

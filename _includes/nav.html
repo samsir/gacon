@@ -1,5 +1,11 @@
 <span class="sr-only">Navigation:</span>
-<ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/">
+    <img src="https://getbootstrap.com/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+    Bootstrap
+  </a>
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+<ul class="navbar-nav">
   {% assign pages = site.pages %}
 
   {% for document in site.documents %}
@@ -11,22 +17,20 @@
   {% assign count = 0%}
   {% for node in pages %}
   {% assign count = count | plus: 1 %}
-    <li>
-      <input type="checkbox" id="list-item-{{ count }}"/>
-      <div  class="list-wrapper">
-      <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
-       {% if node.submenu %}<label class="folder" for="list-item-{{ count }}">▾</label>{% endif %}
-    </div>
-     <ul class="list-body">
+    <li class="nav-item active">
+      <a id="list-item-{{ count }}" class="nav-link{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}
+       {% if node.submenu %}<label class="folder" for="list-item-{{ count }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">▾</label>{% endif %}
+      </a>
+       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
        {% for subnode in subpages %}
            {% if subnode.category == node.slug %}
-             <li>
-               <a class="sidebar-nav-subitem{% if page.url == subnode.url %} active{% endif %}" href="{{ subnode.url | relative_url }}">{{ subnode.title }}</a>
-             </li>
+               <a class="dropdown-item{% if page.url == subnode.url %} active{% endif %}" href="{{ subnode.url | relative_url }}">{{ subnode.title }}</a>
            {% endif %}
          {% endfor %}
-     </ul>
+     </div>
     </li>
 
   {% endfor %}
+</div>
 </ul>
+</nav>
