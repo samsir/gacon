@@ -1,10 +1,10 @@
 <span class="sr-only">Navigation:</span>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="nav-scroller py-1 mb-2">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="/">
     <img src="https://getbootstrap.com/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
     Bootstrap
   </a>
-<div class="collapse navbar-collapse" id="navbarNavDropdown">
 <ul class="navbar-nav">
   {% assign pages = site.pages %}
 
@@ -17,9 +17,9 @@
   {% assign count = 0%}
   {% for node in pages %}
   {% assign count = count | plus: 1 %}
-    <li class="nav-item active">
-      <a id="list-item-{{ count }}" class="nav-link{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}
-       {% if node.submenu %}<label class="folder" for="list-item-{{ count }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">▾</label>{% endif %}
+    <li class="nav-item dropdown">
+      <a id="{{ count }}" class="nav-link d-inline{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}
+       {% if node.submenu %}<a for="{{ count }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">▾</a>{% endif %}
       </a>
        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
        {% for subnode in subpages %}
@@ -29,8 +29,7 @@
          {% endfor %}
      </div>
     </li>
-
   {% endfor %}
-</div>
 </ul>
 </nav>
+</div>
