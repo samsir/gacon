@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px"
-	 height="150px" viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
-<g id="Layer_2">
-	<rect style="fill:#FFFFFF;" width="150" height="150"/>
-</g>
-<g id="Layer_1">
-	<circle style="display:none;fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:10;" cx="75" cy="75" r="66.4"/>
+<svg version="1.1" id="gacon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="50px" height="50px" viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+<g>
 	<g>
-		<g>
-			<path d="M146.8,63.2c0,0-10.8,11.8-29.3,11.8C92.5,75,75,54.8,75,32.6C75,14.2,86.8,3.2,86.8,3.2C82.9,2.6,79,2.3,75,2.3
-				C34.8,2.3,2.3,34.8,2.3,75s32.6,72.7,72.7,72.7s72.7-32.6,72.7-72.7C147.7,71,147.4,67.1,146.8,63.2z"/>
-		</g>
+		<path d="M148,63c0,0-11,12-29.9,12C92.8,75,75,54.4,75,31.8C75,13.1,87,2,87,2c-3.9-0.6-7.9-1-12-1C34.1,1,1,34.1,1,75
+			s33.1,74,74,74s74-33.1,74-74C149,70.9,148.7,66.9,148,63z"/>
 	</g>
 </g>
 </svg>
