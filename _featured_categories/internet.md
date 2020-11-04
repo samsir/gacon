@@ -2,7 +2,7 @@
 layout: categories-list
 title: Internet
 slug: internet
-menu: true
+menu: false
 submenu: false
 order: 2
 description: >
