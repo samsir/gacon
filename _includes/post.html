@@ -8,7 +8,7 @@
       {% if include.link_title %}</a>{% endif %}
     </h1>
 
-    <p class="post-meta heading">
+    <p class="post-meta heading text-muted">
       <i class="far fa-clock"></i> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
       <i class="far fa-folder-open"></i> {% include post-meta.html tags=post.categories meta=site.featured_categories separator=" / " %}
     </p>
@@ -23,12 +23,12 @@
 
   {% unless include.excerpt %}
 
-{% if post.cover-img %}<img class="img-fluid" src="{{ post.cover-img }}" alt="{{ post.title }}">
+{% if post.cover-img %}<img class="img-fluid mb-4" src="{{ post.cover-img }}" alt="{{ post.title }}">
 {% elsif tag.cover-img %}
-<img class="img-fluid" src="{{ tag.cover-img }}" alt="{{ post.title }}">
+<img class="img-fluid mb-4" src="{{ tag.cover-img }}" alt="{{ post.title }}">
 {% endif %}
     {{ post.content }}
-    <p class="post-meta">
+    <p class="post-meta text-muted">
     <i class="far fa-bookmark"></i> {% include post-meta.html tags=post.tags meta=site.featured_tags separator=", " %}
     </p>
     {% else %}
@@ -40,8 +40,8 @@
 {% unless include.link_title %}
 
   <div class="share d-flex justify-content-end">
-      <h5>Share this post: </h5>
-        <a class="text-decoration-none" href="http://twitter.com/share?text={{ page.title }}&amp;url={{ site.url }}{{ page.url }}"
+      <h5 class="mr-2">Share this post:</h5>
+        <a class="text-decoration-none mr-2" href="http://twitter.com/share?text={{ page.title }}&amp;url={{ site.url }}{{ page.url }}"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
           <i class="fab fa-twitter fa-lg"></i>
         </a>

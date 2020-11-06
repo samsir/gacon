@@ -14,9 +14,15 @@ Memang Jaman Now ini, masing-masing kita mempunyai sengganya nya satu bahkan leb
 
 Sedikit analisa mengenai celah yang dalam hal ini jaman now harus lebih hati-hati di internet, yakni mengenai fake account atau akun palsu entah itu pada sosial media manapun ada dan sengaja dibuat tentunya bukan tanpa adanya alasan kenapa akun palsu itu dibuat, salah satu alasan terkuat menurut analisa saya.
 
-#1 Seseorang membuat akun palsu didasarkan iri melihat temannya memiliki pengikut banyak maka dibuatlah akun palsu tersebut, sayangnya akun palsu ini lebih menjurus pada imaji dan dosa sesaat sebut saja pekerja sek komersial tapi dalam ranah digital. Semoga pembaca faham. Kemudian celah manusia yang juga ditakuti nabi dan rasul yaitu nafsu, benar-benar dibuat sedemikian nyata sehingga ngga kentara bahwa akun tersebut palsu.
-#2 Seseorang membuat akun keduanya atas dasar karena akun pertama begitu populer sehingga orang tersebut memanfaatkan kesempatan untuk dapat dipromosikan diakun miliknya yang sudah memiliki banyak fans tadi.
-
+<ol>
+<li>
+Seseorang membuat akun palsu didasarkan iri melihat temannya memiliki pengikut banyak maka dibuatlah akun palsu tersebut, sayangnya akun palsu ini lebih menjurus pada imaji dan dosa sesaat sebut saja pekerja sek komersial tapi dalam ranah digital. Semoga pembaca faham. Kemudian celah manusia yang juga ditakuti nabi dan rasul yaitu nafsu, benar-benar dibuat sedemikian nyata sehingga ngga kentara bahwa akun tersebut palsu.
+</li>
+<p></p>
+<li>
+Seseorang membuat akun keduanya atas dasar karena akun pertama begitu populer sehingga orang tersebut memanfaatkan kesempatan untuk dapat dipromosikan diakun miliknya yang sudah memiliki banyak fans tadi.
+</li>
+</ol>
 Kemudian hal semacam ini diperparah dengan fakta yang sekarang ini beredar mengenai banyak dan begitu berbondong-bondongnya generasi milenial mengenai memperkuat eksistensi aqidah, faktanya teman saya sendiri adalah salah satu orang terpilih mendapat hidayah karena hidayah hanya untuk orang-orang terpilih. Dibalik itu semua sebelum mereka benar-benar menutup aurat dengan hijab ngga sedikit juga foto masalalu tanpa niqab mereka yang digunakan oleh oknum untuk membuat dan mempertegas sebuah akun palsu agar terlihat nyata.
 
 Tapi bagi seorang fundamentalis, tuhan maha pengampun untuk hambanya yang benar-benar ingin hijrah bukan sekadar hijrah penampilan tapi juga akhlak dan perbuatan seperti esensi tuhan mengutus nabi akhir jaman.
