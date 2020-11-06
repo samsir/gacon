@@ -1,3 +1,6 @@
+<!--
+  Navigation
+-->
 <span class="sr-only">Navigation:</span>
 <div class="nav-scroller">
   <nav class="navbar navbar-expand navbar-light bg-light">
@@ -18,8 +21,8 @@
   {% for node in pages %}
   {% assign count = count | plus: 1 %}
     <li class="nav-item dropdown">
-      <a id="{{ count }}" class="nav-link d-inline{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}
-       {% if node.submenu %}<a for="{{ count }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">▾</a>{% endif %}
+      <a id="{{ count }}" class="nav-link d-inline{% if page.url == node.url %} active{% endif %}{% if node.submenu %} pr-0{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}
+       {% if node.submenu %}<a for="{{ count }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-angle-down mr-2"></i></a>{% endif %}
       </a>
        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
        {% for subnode in subpages %}

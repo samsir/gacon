@@ -1,10 +1,17 @@
+<!--
+  Footer
+-->
 <footer>
   <div class="container">
-    {% if site.copyright.size > 0 %}
-    {{ site.copyright | markdownify }}
-    {% endif %}
-    <p>
-      <code>Powered by <a href="https://samsiralam.com/">samsir</a></code>
-    </p>
+    <div class="row">
+      <div class="col-sm-10">
+        {% if site.copyright.size > 0 %}
+        {{ site.copyright | markdownify }}
+        {% endif %}
+        <p>
+          <code>Oleh <a href="https://samsiralam.com/">samsir</a></code>
+        </p>
+      </div>
+    </div>
   </div>
 </footer>

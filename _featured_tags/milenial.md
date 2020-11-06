@@ -2,7 +2,7 @@
 layout: tags-list
 title: Milenial
 slug: milenial
-category: think
+category: lifestyle
 menu: false
 order: 1
 ---

@@ -9,9 +9,8 @@
     </h1>
 
     <p class="post-meta heading">
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
-      {% include post-meta.html tags=post.categories meta=site.featured_categories start_with="in " separator=" / " %}
-      {% include post-meta.html tags=post.tags meta=site.featured_tags start_with="on " separator=", " %}
+      <i class="far fa-clock"></i> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+      <i class="far fa-folder-open"></i> {% include post-meta.html tags=post.categories meta=site.featured_categories separator=" / " %}
     </p>
 
   {% include message.html text=post.description %}
@@ -23,14 +22,16 @@
   {% endfor %}
 
   {% unless include.excerpt %}
-    <div class="markdown-body">
 
 {% if post.cover-img %}<img class="img-fluid" src="{{ post.cover-img }}" alt="{{ post.title }}">
-<br/>{% elsif tag.cover-img %}
+{% elsif tag.cover-img %}
 <img class="img-fluid" src="{{ tag.cover-img }}" alt="{{ post.title }}">
-<br/>{% endif %}
+{% endif %}
     {{ post.content }}
-{% else %}
+    <p class="post-meta">
+    <i class="far fa-bookmark"></i> {% include post-meta.html tags=post.tags meta=site.featured_tags separator=", " %}
+    </p>
+    {% else %}
     {{ post.excerpt }}
     <p class="read-more"><a class="heading" href="{{ post.url | relative_url }}" data-flip="title">Continue reading </a></p>
 {% endunless %}
@@ -38,19 +39,15 @@
 </article>
 {% unless include.link_title %}
 
-  <div class="share">
-      <h2>Share this post</h2>
-      <div class="share-body">
-        <a href="http://twitter.com/share?text={{ page.title }}&amp;url={{ site.url }}{{ page.url }}"
+  <div class="share d-flex justify-content-end">
+      <h5>Share this post: </h5>
+        <a class="text-decoration-none" href="http://twitter.com/share?text={{ page.title }}&amp;url={{ site.url }}{{ page.url }}"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-            <span class="icon-twitter">
-            </span>
+          <i class="fab fa-twitter fa-lg"></i>
         </a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+        <a class="text-decoration-none" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-            <span class="icon-facebook">
-            </span>
+          <i class="fab fa-facebook-square fa-lg"></i>
         </a>
-    </div>
   </div>
 {% endunless %}

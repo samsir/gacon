@@ -3,7 +3,7 @@ layout: post
 title: "Cara Menjadi Hypebeast Untuk Pemula"
 subtitle: "Hypebeast Pemula"  
 categories: lifestyle
-tags: milenial lifestyle
+tags: milenial lifestyle hypebeast
 comments: true
 cover-img: "https://miro.medium.com/max/1754/1*jfxNR0-AYy-rAbJzrxoQ3g.png"
 ---  
