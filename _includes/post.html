@@ -9,7 +9,7 @@
     </h1>
 
     <p class="post-meta heading text-muted">
-      <i class="far fa-clock"></i> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+      <span class="mr-2"><i class="far fa-clock"></i> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time></span>
       <i class="far fa-folder-open"></i> {% include post-meta.html tags=post.categories meta=site.featured_categories separator=" / " %}
     </p>
 
