@@ -1,18 +1,18 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
-theorydb:
-  name:              min
-  email:             theorydb@gmail.com
+Gacon:
+  name:              gacon.id
+  email:             gacondotco@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Data science enthusiast and addict :)
+    Nah!
 
   # This photo will be used in the about section
   picture:
-  #  src:             /assets/img/me.jpg
+    src:             /assets/img/gacon_brand.svg
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
     #  1x:            /assets/img/me.jpg
@@ -23,7 +23,7 @@ theorydb:
   # Icons appear in order, can be rearranged:
   social:
     facebook:        cantouchmin
-    # twitter:         gaconid
+    twitter:         gaconid
     # google:          <number>
     # vk:              <username>
     # youtube:         <string_string_string>
@@ -32,7 +32,7 @@ theorydb:
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    # instagram:       gaconid
+    instagram:       gaconid
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
@@ -61,7 +61,7 @@ theorydb:
     rss:             https://gacon.id/feed.xml
 
 # Another author
-mdo:
+samsir:
   name:              <firtname> <lastname>
   email:             <mail@domain.tld>
   about:             |
