@@ -2,65 +2,51 @@
 #  User configuration
 # 
 
-title:               Gacon
+title:  Gacon
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
-url:                 https://gacon.id
+url:  https://gacon.id
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
-baseurl:             ""
+baseurl: ""
 
 # A very short description of your page
 # tagline:             ""
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
-description:         >
+description:  >
   Nah!
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
-  name:              Gacon
-  email:             gacondotco@gmail.com
+  name: Gacon
+  email:  gacondotco@gmail.com
 
 # Fallback image and color
-image:               
-color:               '#4f86aa'
-
-# The font used for headings. Expects a string that is a valid CSS font-family value.
-font_heading:        "'Merriweather-Light','Lato','-apple-system','Verdana','PingFang SC','Helvetica Neue','Arial','Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei','sans-serif'"
-
-# The text font. Expects a string that is a valid CSS font-family value.
-font:                "'Merriweather-Light','Lato','-apple-system','Verdana','PingFang SC','Helvetica Neue','Arial','Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei','sans-serif'"
-
-# The string encoding what fonts to fetch from Google Fonts.
-# See: https://qwtel.com/hydejack/docs/configuration/
-google_fonts:        Lato
-
-# If you do not use a Google Fonts, uncomment the line below
-# no_google_fonts:     true
+image:  
+color:  '#4f86aa'
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:    
+google_analytics: 
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
 disqus: True
-disqus_shortname:    gaconid
+disqus_shortname: gaconid
 
 # This text will appear in the footer of every page. Markdown enabled.
-# copyright:           '&copy; 2019.04. by theorydb'
+copyright:  '&copy; 2020 | gacon.id'
 
 # Format of the permalinks
-permalink:           /post/:title/
+permalink:  /post/:title/
 
 # Pagination configuration (used by the `blog` layout)
-paginate:            6
-paginate_path:       '/page/:num/'
+paginate: 6
+paginate_path:  '/page/:num/'
 
-# If you are upgrading form a v5 verison of Hydejack, uncomment the two lines below,
 # so that the location of the feed XML stays the same.
 # feed:
 #   path:              atom.xml
@@ -84,17 +70,17 @@ paginate_path:       '/page/:num/'
 
 collections:
   featured_categories:
-    permalink:       /category/:name/
-    output:          true
+    permalink:  /category/:name/
+    output: true
   featured_tags:
-    permalink:       /tag/:name/
-    output:          true
+    permalink:  /tag/:name/
+    output: true
   projects:
-    permalink:       /projects/:path/
-    output:          true
+    permalink:  /projects/:path/
+    output: true
   page:
-    permalink:       /insight/:path/
-    output:          true
+    permalink:  /insight/:path/
+    output: true
 
 # 
 #  Advanced configuration
@@ -112,20 +98,20 @@ exclude:
   - Gemfile
 
 kramdown:
-  footnote_backlink: '&#x21a9;&#xfe0e;'
-  math_engine:       mathjax
+  footnote_backlink:  '&#x21a9;&#xfe0e;'
+  math_engine:  mathjax
   math_engine_opts:
-    preview:         true
-    preview_as_code: true
+    preview:  true
+    preview_as_code:  true
 
 compress_html:
-  comments:          ["<!-- ", " -->"]
-  clippings:         all
-  endings:           all
+  comments: ["<!-- ", " -->"]
+  clippings:  all
+  endings:  all
   ignore:
-    envs:            [development]
+    envs: [development]
 
 sass:
-  style:             compressed
+  style:  compressed
 
     
