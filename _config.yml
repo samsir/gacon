@@ -87,10 +87,9 @@ collections:
 # 
 
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-archives
 
 exclude:
   - README.md
@@ -114,4 +113,8 @@ compress_html:
 sass:
   style:  compressed
 
-    
+# Custom headers
+webrick:
+  headers:
+    Content-Security-Policy: frame-ancestors 'none';
+    X-Frame-Options: DENY
