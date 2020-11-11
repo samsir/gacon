@@ -6,7 +6,7 @@ categories: lifestyle
 tags: milenial lifestyle hypebeast
 comments: true
 cover-img: "https://miro.medium.com/max/1754/1*jfxNR0-AYy-rAbJzrxoQ3g.png"
----  
+---
 
 Buat kamu yang sama sekali ngga tahu dan belum kenal dengan istilah hypebeast dan ingin menjadi seorang hypebeast, simak beberapa poin berikut:
 
