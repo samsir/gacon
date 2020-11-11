@@ -113,8 +113,11 @@ compress_html:
 sass:
   style:  compressed
 
-# Custom headers
-webrick:
-  headers:
-    Content-Security-Policy: frame-ancestors 'none';
-    X-Frame-Options: DENY
+tipue_search:
+  include:
+    pages: false
+    collections: []
+  exclude:
+    files: [search.html, index.html, tags.html]
+    categories: []
+    tags: []
