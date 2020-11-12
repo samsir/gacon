@@ -37,7 +37,7 @@ disqus: True
 disqus_shortname: gaconid
 
 # This text will appear in the footer of every page. Markdown enabled.
-copyright:  '&copy; 2020 | Gacon.id'
+copyright:  '&copy; 2020 &#124; Gacon.id'
 
 # Format of the permalinks
 permalink:  /post/:title/
@@ -60,9 +60,6 @@ collections:
     output: true
   featured_tags:
     permalink:  /tag/:name/
-    output: true
-  projects:
-    permalink:  /projects/:path/
     output: true
   page:
     permalink:  /insight/:path/
