@@ -23,7 +23,6 @@ description:  >
 # This should be the same author as first entry in `_data/authors.yml`
 author:
   name: Gacon
-  email:  gacondotco@gmail.com
 
 # Fallback image and color
 image:  
@@ -31,14 +30,14 @@ color:  '#4f86aa'
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics: 
+# google_analytics: 
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
 disqus: True
 disqus_shortname: gaconid
 
 # This text will appear in the footer of every page. Markdown enabled.
-copyright:  '&copy; 2020 | gacon.id'
+copyright:  '&copy; 2020 | Gacon.id'
 
 # Format of the permalinks
 permalink:  /post/:title/
@@ -47,22 +46,9 @@ permalink:  /post/:title/
 paginate: 6
 paginate_path:  '/page/:num/'
 
-# so that the location of the feed XML stays the same.
-# feed:
-#   path:              atom.xml
-
 # Set to true when building with the `--lsi` option
 # See: https://jekyllrb.com/docs/variables/#site-variables
 # use_lsi:             true
-
-# Set to `true` if you don't want to show an icon after each link that opens to an external site
-# no_mark_external:    true
-
-# Uncomment this line if third party plugins fail to work with dynimically loaded pages
-# disable_push_state:  true
-
-# Uncomment this line if want to disable the touch drawer on mobile
-# disable_drawer: true
 
 # 
 #  Collections
