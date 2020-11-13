@@ -10,7 +10,7 @@
 
 <!-- Then we build the nav bar. -->
 <nav class="navbar navbar-expand">
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav">
     {% for entry in site.data.menu %}
         {% if entry.url == current_page %}
             {% assign current = ' class="nav-item active"' %}

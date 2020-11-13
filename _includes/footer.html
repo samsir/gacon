@@ -4,13 +4,13 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-12 col-md-6 d-flex justify-content-center justify-content-sm-start">
+        {% include menu.html %}
+      </div>
+      <div class="col-sm-12 col-md-6 text-center text-sm-right">
         {% if site.copyright.size > 0 %}
         {{ site.copyright | markdownify }}
         {% endif %}
-      </div>
-      <div class="col-sm-6">
-        {% include menu.html %}
       </div>
     </div>
   </div>
