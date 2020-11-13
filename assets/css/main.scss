@@ -14,6 +14,25 @@
   "fontawesome/solid"
   ;
 
-  .btn:focus, .btn.focus, .form-control:focus {
-    box-shadow: 0 0 black;
-  }
+.btn:focus, .btn.focus, .form-control:focus {
+  box-shadow: 0 0 black;
+}
+  
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}

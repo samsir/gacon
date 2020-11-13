@@ -1,39 +1,34 @@
 <!--
   Navigation
 -->
-<span class="sr-only">Navigation:</span>
-<nav class="navbar navbar-expand navbar-light bg-light">
-  <a class="navbar-brand" href="/">
-    <img src="/assets/img/gacon_brand.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-    {{ site.title }}
-  </a>
-<ul class="navbar-nav mr-auto">
-  {% assign pages = site.pages %}
-
-  {% for document in site.documents %}
-    {% assign pages = pages | push: document %}
-  {% endfor %}
-
-  {% assign subpages = pages | where: "menu", false | sort: "order" %}
-  {% assign pages = pages | where: "menu", true | sort: "order" %}
-  {% assign count = 0%}
-  {% for node in pages %}
-  {% assign count = count | plus: 1 %}
-    <li class="nav-item dropdown">
-      <a id="{{ count }}" class="nav-link d-inline{% if page.url == node.url %} active{% endif %}{% if node.submenu %} pr-0{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}
-        {% if node.submenu %}
-        <a for="{{ count }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-angle-down mr-2"></i></a>
-        {% endif %}
-      </a>
-       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-       {% for subnode in subpages %}
-           {% if subnode.category == node.slug %}
-               <a class="dropdown-item{% if page.url == subnode.url %} active{% endif %}" href="{{ subnode.url | relative_url }}">{{ subnode.title }}</a>
-           {% endif %}
-         {% endfor %}
-     </div>
-    </li>
-  {% endfor %}
-</ul>
-{% include search-box.html %}
+<nav class="navbar-expand nav-scroller">
+  <div class="container">
+    <ul class="nav mr-auto">
+      {% assign pages = site.pages %}
+      {% for document in site.documents %}
+      {% assign pages = pages | push: document %}
+      {% endfor %}
+      
+      {% assign subpages = pages | where: "menu", false | sort: "order" %}
+      {% assign pages = pages | where: "menu", true | sort: "order" %}
+      {% assign count = 0%}
+      {% for node in pages %}
+      {% assign count = count | plus: 1 %}
+      <li class="nav-item dropdown">
+        <a id="{{ count }}" class="nav-link d-inline{% if page.url == node.url %} active{% endif %}{% if node.submenu %} pr-0{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}
+          {% if node.submenu %}
+          <a for="{{ count }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-angle-down mr-2"></i></a>
+          {% endif %}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          {% for subnode in subpages %}
+          {% if subnode.category == node.slug %}
+          <a class="dropdown-item{% if page.url == subnode.url %} active{% endif %}" href="{{ subnode.url | relative_url }}">{{ subnode.title }}</a>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </nav>
