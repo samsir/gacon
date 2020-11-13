@@ -45,6 +45,7 @@ permalink:  /post/:title/
 # Pagination configuration (used by the `blog` layout)
 paginate: 6
 paginate_path:  '/page/:num/'
+encoding: UTF-8
 
 # Set to true when building with the `--lsi` option
 # See: https://jekyllrb.com/docs/variables/#site-variables
