@@ -40,7 +40,6 @@ validation-report.json
 
 # Folders to ignore
 _posts_ing
-theorydb.github.io
 node_modules
 .sass-cache
 .jekyll-metadata
