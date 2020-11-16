@@ -24,10 +24,12 @@ layout: base
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
     {% unless forloop.first %}</ul>{% endunless %}
-    <h2 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+    <h3 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h3>
     <ul class="related-posts">
     {% assign date = currentdate %}
   {% endif %}
-  {% include post-list-item.html post=post format="%d %b" %}
-  {% if forloop.last %}</ul>{% endif %}
+  {% include post-list.html post=post format="%d %b" %}
+  {% if forloop.last %}
+    </ul>
+  {% endif %}
 {% endfor %}

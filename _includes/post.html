@@ -1,4 +1,5 @@
 {% assign post = include.post %}
+{% assign format = include.format | default:"%d %b %Y" %}
 
 <article id="{{ post.id | slice: 1,9999 }}" class="post{% if include.link_title %} mb6{% endif %}" role="article">
   <header>
@@ -51,3 +52,4 @@
         </a>
   </div>
 {% endunless %}
+ 
