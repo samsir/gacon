@@ -1,5 +1,5 @@
 ---
-layout: tags-list
+layout: categories-list
 title: Internet
 slug: internet
 category: network
