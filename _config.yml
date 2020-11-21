@@ -43,7 +43,7 @@ disqus_shortname: gaconid
 copyright:  '&copy; 2020 &#124; Gacon.id'
 
 # Format of the permalinks
-permalink:  /post/:title/
+permalink:  pretty
 
 # Pagination configuration (used by the `blog` layout)
 paginate: 6
@@ -68,6 +68,9 @@ collections:
   page:
     permalink:  /insight/:path/
     output: true
+  posts:
+    permalink: /post/:title/
+    output: true
 
 # 
 #  Advanced configuration
@@ -85,13 +88,6 @@ exclude:
 
 markdown: kramdown
 highlighter: rouge
-
-compress_html:
-  comments: ["<!-- ", " -->"]
-  clippings:  all
-  endings:  all
-  ignore:
-    envs: [development]
 
 sass:
   style:  compressed

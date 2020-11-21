@@ -1,11 +1,10 @@
----
-layout: compress
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default:site.lang | default:'en' }}">
 
 {% assign author = site.data.authors[page.author] | default:site.data.authors.first[1] %}
 
 {% assign color = site.color | default:'#5ff656b' %}
-{% assign image = site.image | default:'/assets/img/nap.jpg' %}
+{% assign image = site.image | default:'/assets/img/gacon_brand.svg' %}
 
 {% if page.categories.size > 0 %}
   {% assign category_name = page.categories.first %}
@@ -38,3 +37,4 @@ layout: compress
   </section>
   {% include footer.html %}
 </body>
+</html>
