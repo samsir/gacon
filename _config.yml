@@ -45,7 +45,7 @@ copyright:  '&copy; 2020 &#124; Gacon.id'
 # Format of the permalinks
 permalink:  pretty
 
-# Pagination configuration (used by the `blog` layout)
+# Pagination configuration
 paginate: 6
 paginate_path:  '/page/:num/'
 encoding: UTF-8
